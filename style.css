@@ -1,1 +1,50 @@
+body {
+    height: 100%;
+    width: 100%;
+}
 
+.div-main {
+    display:flex;
+}
+
+.div-inout {
+    width: 80%;
+}
+
+.div-display {
+    display: flex;
+    flex-flow: column wrap;
+    height: 30%;
+}
+
+.div-display input {
+    border: none;
+}
+
+.div-numbers{
+    display: flex;
+    flex-flow: row wrap;
+    height: 70%
+}
+
+.div-number{
+    width: 100%;
+}
+
+.btn-number {
+    height: 100%;
+    width: 32%;
+}
+
+.div-operation {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 15%;
+    height: 100%;
+}
+
+.btn-operation {
+    text-align: center;
+    height: auto;
+    width: auto;
+}

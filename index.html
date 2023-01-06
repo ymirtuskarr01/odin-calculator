@@ -6,7 +6,62 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Odin Calculator</title>
         <script defer src="script.js"></script>
-        <link rel="stylesheet" ref="style.css">
+        <link rel="stylesheet" href="style.css">
     </head>
-    <body></body>
+    <body>
+        <div class="div-main">
+            <!-- start left -->
+            <div class="div-inout">
+                <!-- start display -->
+                <div class="div-display">
+                    <input type="text">
+                    <input type="text">
+                </div>
+                <!-- end display -->
+
+                <!-- start number -->
+                <div class="div-numbers">
+                    <div class="div-number">
+                        <button name="" class="btn-number" type="button" value="7">7</button>
+                        <button name="" class="btn-number" type="button" value="8">8</button>
+                        <button name="" class="btn-number" type="button" value="9">9</button>
+                    </div>
+                    <div class="div-number">
+                        <button name="" class="btn-number" type="button" value="4">4</button>
+                        <button name="" class="btn-number" type="button" value="5">5</button>
+                        <button name="" class="btn-number" type="button" value="6">6</button>
+                    </div>
+                    <div class="div-number">
+                        <button name="" class="btn-number" type="button" value="1">1</button>
+                        <button name="" class="btn-number" type="button" value="2">2</button>
+                        <button name="" class="btn-number" type="button" value="3">3</button>
+                    </div>
+                    <div class="div-number">
+                        <button name="" class="btn-number" type="button" value=".">.</button>
+                        <button name="" class="btn-number" type="button" value="0">0</button>
+                        <button name="" class="btn-number" type="button" value="=">=</button>
+                    </div>
+                </div>
+                <!-- end number -->
+            </div>
+            <!-- end left -->
+
+            <!-- start right -->
+            <div class="div-operation">
+                <button class="btn-operation" name="delete" type="button" value="delete"><</button>
+                <button class="btn-operation" name="clear" type="button" value="clear">
+                    <img loading="lazy" src=".\asset\clear.png">
+                </button>
+                <button class="btn-operation" name="divide" type="button" value="/">
+                    <img loading="lazy" src=".\asset\divide.png">
+                </button>
+                <button class="btn-operation" name="multiply" type="button" value="X">X</button>
+                <button class="btn-operation" name="subtract" type="button" value="-">-</button>
+                <button class="btn-operation" name="add" type="button" value="+">+</button>
+            </div>
+            <!-- end right -->
+        </div>
+
+
+    </body>
 </html>
