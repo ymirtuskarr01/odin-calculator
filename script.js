@@ -1,6 +1,3 @@
-// handles decimal
-// handles error
-
 "strict"
 
 let buttons = document.querySelectorAll("button");
