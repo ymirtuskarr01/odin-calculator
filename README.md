@@ -1,6 +1,9 @@
 # odin-calculator
 ➕➖✖➗
 
+Live Demo:
+[https://ymirtuskarr01.github.io/odin-calculator/](https://ymirtuskarr01.github.io/odin-calculator/)
+
 # problem
 Make a calculator
 Pressable button & enterable number
