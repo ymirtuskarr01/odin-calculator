@@ -4,6 +4,8 @@
 Live Demo:
 [https://ymirtuskarr01.github.io/odin-calculator/](https://ymirtuskarr01.github.io/odin-calculator/)
 
+![Project Screenshot 1](./images/odinCalculatorBase_.png "Odin Calculator Base")
+
 # problem
 Make a calculator
 Pressable button & enterable number
@@ -11,7 +13,7 @@ Basic math operator: add subtract multiply divide
 
 # pseudocode
 - functions:
-  - operate(num1, num2): takes `num1` and `num2` 
+  - operate(num1, num2): takes `num1` and `num2`
   - add, subtract, multiply, divide
   - returns sum
 
@@ -24,4 +26,4 @@ Basic math operator: add subtract multiply divide
 - display a snarky error message if user tries to divide by 0.
 - add *"."*  button. not more than 1 in one number.
 - add *"backspace"* button
-- add keyboard support  
+- add keyboard support
