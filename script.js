@@ -1,4 +1,4 @@
-"strict"
+"use strict"
 
 let buttons = document.querySelectorAll("button");
 let display = document.querySelectorAll(".div-display input");
