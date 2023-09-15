@@ -4,7 +4,7 @@
 Live Demo:
 [https://ymirtuskarr01.github.io/odin-calculator/](https://ymirtuskarr01.github.io/odin-calculator/)
 
-![Project Screenshot 1](./images/odinCalculatorBase_.png "Odin Calculator Base")
+![Project Screenshot 1](./images/odinCalculatorBase.png "Odin Calculator Base")
 
 # problem
 Make a calculator
